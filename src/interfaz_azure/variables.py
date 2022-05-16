@@ -13,8 +13,7 @@ AML_INTERFACE = None
 AML_EXPERIMENT_NAME = "test-tec"
 
 AML_COMPUTE_NAME = "cpu-compute"
-AML_ENV_NAME = 'retencion_env'
-
+AML_ENV_NAME = 'tec_env'
 
 ml_config  = None
 
@@ -24,8 +23,3 @@ dataset_training = None
 BLOB_CONTAINER_NAME = ''
 
 MODEL_NAME = ''
-stringConexionCuentaAlmacenamiento = ''
-clienteBlobAzure = None
-contenedorAzure = None
-
-print(BLOB_CONTAINER_NAME)
